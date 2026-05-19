@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Security Gate Validator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main class="container">
+
+    <section class="hero">
+      <h1>Security Gate Validator</h1>
+
+      <p>
+        Analiza la seguridad básica de cualquier sitio web y obtén un reporte rápido.
+      </p>
+
+      <form id="scanForm">
+        <input
+          id="urlInput"
+          type="url"
+          placeholder="https://tusitio.com"
+          required
+        />
+
+        <button type="submit">
+          Analizar sitio
+        </button>
+      </form>
+    </section>
+
+    <section id="result" class="result hidden"></section>
+
+  </main>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
