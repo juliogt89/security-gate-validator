@@ -261,3 +261,45 @@ button:hover {
   border-left-color: #22c55e;
   background: #f0fdf4;
 }
+.brand-link {
+  margin-top: 28px;
+  display: flex;
+  justify-content: center;
+}
+
+.brand-link a {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid #e2e8f0;
+  text-decoration: none;
+  color: #334155;
+  font-weight: 500;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+  transition: all 0.2s ease;
+}
+
+.brand-link a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 35px rgba(37, 99, 235, 0.16);
+}
+
+.brand-logo {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #2563eb, #7c3aed, #ec4899);
+  color: white;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.brand-link strong {
+  color: #2563eb;
+}
