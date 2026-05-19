@@ -240,4 +240,24 @@ button:hover {
 }
 
 
+.risk-box,
+.example-box {
+  margin-top: 14px;
+  background: #f8fafc;
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+}
 
+.example-box code {
+  display: block;
+  margin-top: 8px;
+  color: #334155;
+  white-space: normal;
+  line-height: 1.5;
+}
+
+.success-finding {
+  border-left-color: #22c55e;
+  background: #f0fdf4;
+}
