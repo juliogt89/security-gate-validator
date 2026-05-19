@@ -5,7 +5,7 @@ const result = document.getElementById("result");
 /*
   AQUÍ pondremos luego tu API real
 */
-const API_URL = "https://example.com/scan";
+const API_URL = "https://security-gate-api.juliosgt89.workers.dev/scan";
 
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
